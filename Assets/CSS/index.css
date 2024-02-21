@@ -7,6 +7,7 @@
 /* Global */
 body {
     background-color: var(--bg-color);
+    width: 600px;
 }
 
 /* Header */
@@ -147,6 +148,7 @@ header {
     /* Global */
     body {
        background-color: var(--bg-color);
+       width: 1024px;
     }
     
     /* Header */
@@ -183,6 +185,7 @@ header {
     header li {
         margin: -4px  30px 0 30px ;
         text-align: center;
+        width: 100px;
     }
 
     header li:hover {
@@ -193,6 +196,7 @@ header {
         padding-left: 5px;
         padding-right: 5px;
         padding-bottom: 3px;
+        transition: 1s;
     }
 
     header a {
@@ -202,6 +206,7 @@ header {
         font-weight: normal;
         color: var(--color);
         opacity: 0.9;
+        font-size: 20px;
     }
 
     
@@ -228,11 +233,12 @@ header {
 
     /* Showcase Section */
     .showcase .container {
-        width: 1150px;
+        width: 1100px;
         margin: 20px auto;
         margin-top: -30px;
         display: flex;
         justify-content: space-between;
+        margin-left: 40px;
     }
 
     .container .containing {
@@ -265,11 +271,12 @@ header {
 
     /* Message Section */
     .message .container {
-        width: 1150px;
+        width: 1100px;
         margin: 20px auto;
         margin-top: -30px;
         display: flex;
         justify-content: space-between;
+        margin-left: 40px;
     }
 
     
